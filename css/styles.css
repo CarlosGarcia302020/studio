@@ -27,6 +27,7 @@
 
 body {
     background-color: #fffafa;
+    scroll-behavior: smooth;
 }
 
 /* Border-gottom fez a linha em baixo do navegador */
@@ -123,7 +124,7 @@ body {
 /*  O STUDIO  */
 #studio {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 10px;
 }
 
@@ -146,8 +147,8 @@ body {
 }
 
 .people {
-    padding: 50px;
-    padding-top: 25px;
+    padding: 40px;
+    padding-top: 15px;
 }
 
 
@@ -162,8 +163,6 @@ body {
     padding-top: 50px;
     margin-bottom: 40px;
 }
-
-
 
 
 
@@ -255,7 +254,6 @@ body {
 
 
 /*MEDIA QUERY DO SLIDE*/
-/* Trabalhando o SLIDE da resolução na menor para a maior */
 @media(min-width: 768px) {
     #slider .carousel-caption {
         bottom: 1em;
@@ -283,7 +281,6 @@ Esse @media é para a estilização do DESKTOP*/
         font-size: 2.4em;
     }
 
-    /*Quando aumenta a fonte precisa aumentar o distânciamento para não acavalar*/
     .title:before {
         bottom: 1.5em;
 
@@ -298,5 +295,16 @@ Esse @media é para a estilização do DESKTOP*/
 @media (min-width: 768px) {
     #info-content {
         padding: 3.5em;
+    }
+}
+
+@media (min-width: 420px) {
+    .service i {
+        font-size: 40px;
+        color: #960019;
+    }
+
+    .contact-box p{
+       margin-top: 15px;
     }
 }
