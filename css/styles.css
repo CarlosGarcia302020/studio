@@ -55,14 +55,13 @@ body {
 /* Deixa o logo um pouco menor*/
 .navbar-brand img {
     width: 50px;
-    color: #d3d3d3;
-    
 }
+
 
 /* Cutomização do título */
 .navbar-brand span {
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.6em;
     margin-left: .5em;
 }
 
@@ -266,7 +265,6 @@ body {
     text-decoration: none;
     color: #960019;
 }
-
 
 
 /*MEDIA QUERY DO SLIDE*/
